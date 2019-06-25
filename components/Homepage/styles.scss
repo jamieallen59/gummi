@@ -1,0 +1,53 @@
+@import '../variables';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+.title {
+  font-family: $base-font;
+  color: $silver;
+  margin: 70px 0 0 0;
+  font-size: 50px;
+  text-align: center;
+}
+
+.subTitle {
+  font-family: $base-font;
+  color: $silver;
+  margin: 30px 0 0 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.body {
+  display: flex;
+  color: $silver;
+  font-family: $base-font;
+  font-size: 16px;
+}
+
+
+.technologies {
+  display: flex;
+  justify-content: center;
+}
+
+.techCopy {
+  text-align: center;  
+}
+
+.focusAndIdeas {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.workedWith {
+  display: flex;
+}

@@ -1,5 +1,15 @@
-function Home() {
-  return <div>Welcome to Next.js!</div>;
+import Homepage from '../components/Homepage'
+
+import Fonts from '../general/Fonts'
+
+class Index extends React.Component {
+  componentDidMount () {
+    Fonts()
+  }
+
+  render () {
+    return <Homepage />
+  }
 }
 
-export default Home;
+export default Index
