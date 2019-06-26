@@ -1,5 +1,37 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
+.title {
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+}
 
-.item {
+.slider {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 300px;
+  overflow: scroll;
+}
 
+.yearWrapper {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  width: 300px;
+  padding: 8px;
+}
+
+.year {
+  font-size: 20px;
+}
+
+.img {
+  max-height: 80px;
+  max-width: 280px;
 }

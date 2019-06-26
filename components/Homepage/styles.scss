@@ -1,8 +1,12 @@
-@import '../variables';
+@import '../../variables';
 
 .wrapper {
   display: flex;
   flex-direction: column;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
 
   -webkit-font-smoothing: antialiased;
 }
@@ -22,14 +26,6 @@
   font-size: 30px;
   text-align: center;
 }
-
-.body {
-  display: flex;
-  color: $silver;
-  font-family: $base-font;
-  font-size: 16px;
-}
-
 
 .technologies {
   display: flex;

@@ -1,10 +1,7 @@
+import { BodyCopy } from '../../common'
 import WhoWeveWorkedWith from '../WhoWeveWorkedWith'
 
 import styles from './styles.scss'
-
-const BodyCopy = ({ children, className }) => {
-  return <p className={`${styles.body} ${className}`}>{children}</p>
-}
 
 const Title = () => {
   return <h1 className={styles.title}>GUMMI</h1>
