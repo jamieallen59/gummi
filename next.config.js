@@ -3,9 +3,6 @@ module.exports = withSass({
   cssModules: true,
   cssLoaderOptions: {
     localIdentName: "[local]___[hash:base64:5]",
-  }
-})
-
-module.exports = {
+  },
   target: 'serverless'
-}
+})
