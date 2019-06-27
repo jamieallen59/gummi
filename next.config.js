@@ -4,6 +4,5 @@ module.exports = withSass({
   cssLoaderOptions: {
     localIdentName: "[local]___[hash:base64:5]",
   },
-  target: 'serverless',
-  alias: 'gummi.live'
+  "target": 'serverless'
 })
