@@ -1236,7 +1236,7 @@ function (_React$Component) {
         Document: _document_default.a,
         buildManifest: build_manifest,
         reactLoadableManifest: react_loadable_manifest,
-        buildId: "k3rME-CfeME9MP7FIVBWw",
+        buildId: "xn2yZfoUzG1MQJ1EudiTa",
         dynamicBuildId: false,
         assetPrefix: "",
         ampBindInitData: false
