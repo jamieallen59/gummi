@@ -5,3 +5,7 @@ module.exports = withSass({
     localIdentName: "[local]___[hash:base64:5]",
   }
 })
+
+module.exports = {
+  target: 'serverless'
+}
