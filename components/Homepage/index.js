@@ -15,7 +15,7 @@ const Technologies = () => {
   return (
     <div className={styles.technologies}>
       <BodyCopy className={styles.techCopy}>
-        Specialising in Javascript and associated frontend technologies.
+        Specialising in JavaScript and associated frontend technologies.
       </BodyCopy>
     </div>
   )
