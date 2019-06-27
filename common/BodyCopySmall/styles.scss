@@ -1,0 +1,9 @@
+@import '../../variables';
+
+.body {
+  display: flex;
+  color: $silver;
+  margin: 0;
+  font-family: $base-font;
+  font-size: 12px;
+}

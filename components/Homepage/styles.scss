@@ -1,14 +1,21 @@
 @import '../../variables';
 
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
 .wrapper {
   display: flex;
+  min-height: 100vh;
+  justify-content: space-between;
   flex-direction: column;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 70px;
+}
 
-  -webkit-font-smoothing: antialiased;
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
 }
 
 .title {
@@ -36,14 +43,55 @@
   text-align: center;  
 }
 
-.focusAndIdeas {
-  display: flex;
-  flex-direction: column;
-  width: 270px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .workedWith {
   display: flex;
+}
+
+.footer {
+  display: flex;
+  border-top: 1px solid black;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+.attribution {
+  margin-bottom: 4px;
+
+  a {
+    color: $silver;
+    padding: 0 4px;
+  }
+}
+
+.footerCopy {
+  display: flex;
+}
+
+.getInTouch {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.emailLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: $silver;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &:active {
+    position: relative;
+    top: 1px;
+  }
+}
+
+.businessCard {
+  width: 140px;
 }

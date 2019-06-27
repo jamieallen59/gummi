@@ -54,19 +54,27 @@ const SliderInfo = {
   ],
 }
 
-class WorkedWith extends React.Component {
+// TODO: not currently used!
+class WhoWeveWorkedWith extends React.Component {
   renderSlider = () => {
     return Object.entries(SliderInfo).map(([key, value]) => {
       return (
         <div className={styles.yearWrapper} key={key}>
-          <BodyCopy className={styles.title}>
-            {String(key)}
-          </BodyCopy>
+          <div className={styles.yearDivider}>
+            <div className={styles.line}></div>
+            <BodyCopy className={styles.year}>
+              {String(key)}
+            </BodyCopy>
+            <div className={styles.line}></div>
+          </div>
           <div>
             {
               value.map(({ name, imgSrc }) => {
                 return (
-                  <div key={`${key}-${name}`}>
+                  <div
+                    className={styles.item}
+                    key={`${key}-${name}`}
+                  >
                     <BodyCopy>
                       {name}
                     </BodyCopy>
@@ -100,4 +108,4 @@ class WorkedWith extends React.Component {
   }
 }
 
-export default WorkedWith
+export default WhoWeveWorkedWith
